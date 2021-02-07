@@ -220,7 +220,7 @@ form input{
 form input[type="submit"]{
     border-radius: 2px;
     padding: 0 8px;
-    height: 24px;
+    height: 45px;
     border: none;
     font-size: 13px;
     min-width: 132px;
