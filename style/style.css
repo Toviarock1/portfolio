@@ -42,6 +42,7 @@ li a{
     margin-bottom: 10px;
     font-size: 38px;
     padding: 7px 1px;
+    cursor: pointer;
 }
 #company-logo-div{
     margin: 10px;
