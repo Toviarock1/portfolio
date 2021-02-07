@@ -169,14 +169,12 @@ li a{
 .project-img img{
     display: block;
     height: 100%;
-    width: 100%;
 }
 .project-img{
     height: 261px;
 }
 /* contact */
 .contact-img img{
-    width: 45px;
     height: 100%;
     display: block;
     margin: auto;
