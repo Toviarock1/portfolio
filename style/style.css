@@ -169,6 +169,7 @@ li a{
 .project-img img{
     display: block;
     height: 100%;
+    margin: auto;
 }
 .project-img{
     height: 261px;
