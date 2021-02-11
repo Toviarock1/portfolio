@@ -3,7 +3,7 @@
 
 
 #Description
-    This app aims to showcase my professional capabilities
+    This portfolio aims to showcase my professional capabilities
 
 #Built With
     HTML
