@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    border: 0.5px solid red;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
 }
@@ -60,7 +60,7 @@ li a{
     flex-direction: column;
     left: 0;
     position: absolute;
-    width: -webkit-fill-available;
+    width: 100%;
     text-align: center
 
 }
