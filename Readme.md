@@ -13,7 +13,7 @@
     CSS
     JAVASCRIPT
 
-
+# Author
     Adama Simon James
 
 # Contributing
