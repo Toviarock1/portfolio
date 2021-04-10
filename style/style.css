@@ -145,7 +145,7 @@ li a{
     min-width: 132px;
     color: #ffffff;
     background-color: #0060df;
-    
+    cursor: pointer;
     
 }
 #project h2{
