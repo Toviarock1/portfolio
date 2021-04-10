@@ -226,6 +226,7 @@ form input[type="submit"]{
     min-width: 132px;
     color: #ffffff;
     background-color: #0060df;
+    cursor: pointer;
 }
 form label{
     margin: 10px;
