@@ -5,6 +5,7 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn2, textVariant2 } from '../utils/motion';
+import { AiOutlineLink } from 'react-icons/ai';
 
 const ProjectCard = ({
   index,
@@ -13,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => (
   <motion.div variants={fadeIn2('up', 'spring', index * 0.5, 0.75)}>
     <Tilt
@@ -39,6 +41,12 @@ const ProjectCard = ({
               alt={github}
               className="w-1/2 h-1/2 object-contain"
             />
+          </div>
+          <div
+            onClick={() => window.open(live_link, '_blank')}
+            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+          >
+            <AiOutlineLink className="w-1/2 h-1/2 object-contain" />
           </div>
         </div>
       </div>

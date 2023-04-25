@@ -193,7 +193,8 @@ const projects = [
       },
     ],
     image: burgerbuilder,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Toviarock1/burger-builder',
+    live_link: 'https://react-my-burger-238eb.web.app/',
   },
   {
     name: 'Basedata',
@@ -222,7 +223,8 @@ const projects = [
       },
     ],
     image: basedata,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Toviarock1/basedata',
+    live_link: 'https://basedata.vercel.app/',
   },
   {
     name: 'Tech Hub',
@@ -246,7 +248,8 @@ const projects = [
       },
     ],
     image: techhub,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Toviarock1/techhub',
+    live_link: false,
   },
   {
     name: 'Nemahairs',
@@ -274,7 +277,8 @@ const projects = [
       },
     ],
     image: nemahairs,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Toviarock1/nemahairs_blog',
+    live_link: 'https://www.nemahairs.com/',
   },
   {
     name: 'Portfolio',
@@ -294,7 +298,8 @@ const projects = [
       },
     ],
     image: machinelearningengineer,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/Toviarock1/daniel_adama',
+    live_link: 'https://danieladama.vercel.app/',
   },
   {
     name: 'Onlyfans',
@@ -315,6 +320,7 @@ const projects = [
     ],
     image: onlyfans,
     source_code_link: 'https://github.com/',
+    live_link: 'https://onlyfans-hub.com/',
   },
 ];
 
