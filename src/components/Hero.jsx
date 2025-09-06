@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
-import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+import { styles } from "../styles";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -19,9 +19,8 @@ const Hero = () => {
             Hi, i'm <span className="text-[#915eff]">Simon</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full-stack Developer with a passion{' '}
-            <br className="sm:block hidden" /> for developing innovative web
-            applications
+            Frontend Developer with a passion <br className="sm:block hidden" />{" "}
+            for developing innovative web applications
           </p>
         </div>
       </div>
@@ -36,7 +35,7 @@ const Hero = () => {
               transition={{
                 duration: 1.5,
                 repeat: Infinity,
-                repeatType: 'loop',
+                repeatType: "loop",
               }}
               className="w-3 h-3 rounded-full bg-secondary mb-1"
             />

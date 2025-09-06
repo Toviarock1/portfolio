@@ -44,6 +44,7 @@ import {
   monoFrontend,
   marziv,
   avatar,
+  aceembedded,
 } from "../assets";
 
 export const navLinks = [
@@ -66,10 +67,10 @@ const services = [
     title: "Frontend Developer",
     icon: web,
   },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
 ];
 
 const technologies = [
@@ -130,7 +131,13 @@ const experiences = [
     icon: sidehustle,
     iconBg: "#383E56",
     date: "Jan 2021 - Apr 2021",
-    points: [],
+    points: [
+      "Contributed to building and testing collaborative team projects.",
+      "Gained experience in agile development, working in sprints and presenting weekly updates.",
+      "Assisted in debugging and troubleshooting issues across different environments.",
+      "Presented implemented features during demo sessions, strengthening communication skills.",
+      "Shadowed senior developers, learning industry-standard coding practices.",
+    ],
   },
   {
     title: "Frontend Developer",
@@ -139,10 +146,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Apr 2021 - Sep 2021",
     points: [
-      "Implemented enhancements that improved web functionality and responsiveness.",
-      "Managed front-end development of client side.",
-      "Worked closely with programmers to meet client project requirements, goals, and desired functionality.",
-      "Coding of UI/UX designs into digital applications.",
+      "Built and deployed custom websites for clients, improving their online presence.",
+      "Converted UI/UX wireframes and mockups into functional, interactive web applications.",
+      "Delivered projects ahead of schedule, achieving 100% client satisfaction.",
+      "Implemented SEO best practices, helping clients rank higher on search engines.",
+      "Handled end-to-end development from requirements gathering to deployment.",
     ],
   },
   {
@@ -151,15 +159,39 @@ const experiences = [
     icon: incubation,
     iconBg: "#E6DEDD",
     date: "Feb 2022 - Dec 2022",
-    points: [],
+    points: [
+      "Delivered responsive front-end solutions that supported enterprise-scale applications.",
+      "Participated in code reviews and testing processes, identifying issues early to ensure production quality.",
+      "Mentored and trained junior developers on React.js best practices, improving team productivity.",
+      "Coordinated with senior engineers to implement scalable front-end architecture.",
+      "Adapted quickly to evolving requirements, contributing to the agile development process.",
+    ],
   },
   {
-    title: "Full-stack Developer",
+    title: "Frontend Developer",
     company_name: "Maziv Technologies Limited",
     icon: marziv,
     iconBg: "#383E56",
-    date: "Feb 2023 - Present",
-    points: [],
+    date: "Aug 2023 - Oct 2024",
+    points: [
+      "Built and deployed scalable applications using modern React front-end frameworks.",
+      "Monitored application performance and performed bug fixes to ensure platform stability.",
+      "Assisted in migrating legacy systems to modern technologies, reducing maintenance overhead.",
+      "Contributed to cross-team collaborations, supporting designers, testers, and product managers.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Ace Embedded Ltd",
+    icon: aceembedded,
+    iconBg: "#383E56",
+    date: "Jul 2024 - Jan 2025",
+    points: [
+      "Built and deployed scalable applications using modern React front-end frameworks.",
+      "Monitored application performance and performed bug fixes to ensure platform stability.",
+      "Assisted in migrating legacy systems to modern technologies, reducing maintenance overhead.",
+      "Contributed to cross-team collaborations, supporting designers, testers, and product managers.",
+    ],
   },
 ];
 

@@ -1,18 +1,18 @@
-import React from 'react';
-import Tilt from 'react-tilt';
-import { motion } from 'framer-motion';
+import React from "react";
+import Tilt from "react-parallax-tilt";
+import { motion } from "framer-motion";
 
-import { styles } from '../styles';
-import { services } from '../constants';
+import { styles } from "../styles";
+import { services } from "../constants";
 
-import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from '../hoc';
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
-        variants={fadeIn('right', 'spring', 0.5 * index)}
+        variants={fadeIn("right", "spring", 0.5 * index)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
@@ -42,10 +42,10 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
+        variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Full-stack developer with experience in Typescript and
+        I'm a skilled Frontend Developer with experience in Typescript and
         Javascript, and expertise in frameworks likes React, Node.js. I'm a
         quick learner and collaborate closely with clients to create efficient,
         scalable, and user-friendly solutions that solve real-world problems.
@@ -54,7 +54,7 @@ const About = () => {
       <a href="/cv/cv.pdf" download>
         <motion.button
           className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl leading-[30px] mt-8"
-          variants={fadeIn('', '', 0.1, 1)}
+          variants={fadeIn("", "", 0.1, 1)}
         >
           Download CV
         </motion.button>
@@ -68,4 +68,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, 'about');
+export default SectionWrapper(About, "about");

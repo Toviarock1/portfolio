@@ -50,6 +50,7 @@ import campusRide from "./images/campus-ride.jpg";
 import newsapp from "./images/react-newsapp.png";
 import monoFrontend from "./images/monofrontend.png";
 import avatar from "./images/avatar.png";
+import aceembedded from "./images/ace_embedded_ltd_logo.jpg";
 
 export {
   logo,
@@ -101,4 +102,5 @@ export {
   monoFrontend,
   marziv,
   avatar,
+  aceembedded,
 };
