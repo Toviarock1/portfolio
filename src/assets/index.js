@@ -23,6 +23,7 @@ import threejs from "./tech/threejs.svg";
 import postgresql from "./tech/postgresql.png";
 import jquery from "./tech/jquery.png";
 import bootstrap from "./tech/bootstrap.png";
+import jest from "./tech/jest.png";
 import techhub from "./images/techhub.png";
 
 import meta from "./company/meta.png";
@@ -103,4 +104,5 @@ export {
   marziv,
   avatar,
   aceembedded,
+  jest,
 };

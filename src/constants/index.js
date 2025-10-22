@@ -45,6 +45,7 @@ import {
   marziv,
   avatar,
   aceembedded,
+  jest,
 } from "../assets";
 
 export const navLinks = [
@@ -97,6 +98,10 @@ const technologies = [
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "Jest",
+    icon: jest,
   },
   {
     name: "jQuery",
