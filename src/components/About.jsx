@@ -51,12 +51,12 @@ const About = () => {
         scalable, and user-friendly solutions that solve real-world problems.
         Let's work together to bring your ideas to life!
       </motion.p>
-      <a href="/cv/cv.pdf" download>
+      <a href="/cv/simon-adama-resume.pdf" download>
         <motion.button
           className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl leading-[30px] mt-8"
           variants={fadeIn("", "", 0.1, 1)}
         >
-          Download CV
+          Download Resume
         </motion.button>
       </a>
       <div className="mt-20 flex flex-wrap gap-10">

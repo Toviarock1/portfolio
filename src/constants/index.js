@@ -160,7 +160,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Feb 2022 - Dec 2022",
     points: [
-      "Delivered responsive front-end solutions that supported enterprise-scale applications.",
+      "Delivered enterprise dashboards for 50+ users with responsive, performant front-end architecture.",
       "Participated in code reviews and testing processes, identifying issues early to ensure production quality.",
       "Mentored and trained junior developers on React.js best practices, improving team productivity.",
       "Coordinated with senior engineers to implement scalable front-end architecture.",
@@ -174,10 +174,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Aug 2023 - Oct 2024",
     points: [
-      "Built and deployed scalable applications using modern React front-end frameworks.",
-      "Monitored application performance and performed bug fixes to ensure platform stability.",
-      "Assisted in migrating legacy systems to modern technologies, reducing maintenance overhead.",
-      "Contributed to cross-team collaborations, supporting designers, testers, and product managers.",
+      "Developed and maintained scalable React/Next.js applications.",
+      "Migrated legacy systems to modern tech stacks, reducing maintenance time by 50%",
+      "Collaborated with designers and QA to deliver stable product releases",
     ],
   },
   {
@@ -187,10 +186,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jul 2024 - Jan 2025",
     points: [
-      "Built and deployed scalable applications using modern React front-end frameworks.",
-      "Monitored application performance and performed bug fixes to ensure platform stability.",
-      "Assisted in migrating legacy systems to modern technologies, reducing maintenance overhead.",
-      "Contributed to cross-team collaborations, supporting designers, testers, and product managers.",
+      "Built and optimized responsive UI components for enterprise-grade web applications, improving performance and accessibility.",
+      "Integrated AI-powered features with Socket.io, enabling real-time communication for 100+ concurrent users.",
+      "Improved workflow efficiency under load, increasing performance and reducing merge conflicts by 30%.",
     ],
   },
 ];
