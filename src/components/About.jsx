@@ -45,13 +45,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled Frontend Developer with experience in Typescript and
-        Javascript, and expertise in frameworks likes React, Node.js. I'm a
-        quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+        Software Engineer with 3+ years building responsive, accessible, and
+        high-performance web and mobile applications. Strong experience with
+        React, Next.js, TypeScript and modern frontend tooling. Comfortable
+        integrating realtime features, collaborating with backend teams, and
+        migrating legacy code to modern stacks. Focused on clean UI/UX,
+        maintainable code, and delivering measurable improvements in user
+        experience and reliability.
       </motion.p>
-      <a href="/cv/simon-adama-resume.pdf" download>
+      <a href="/resume/simon-adama.pdf" download>
         <motion.button
           className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl leading-[30px] mt-8"
           variants={fadeIn("", "", 0.1, 1)}

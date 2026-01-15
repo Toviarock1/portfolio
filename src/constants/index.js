@@ -68,10 +68,10 @@ const services = [
     title: "Frontend Developer",
     icon: web,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
 ];
 
 const technologies = [
@@ -449,23 +449,6 @@ const projects = [
       },
     ],
     image: makeInNigeria,
-    source_code_link: "https://github.com/Toviarock1/make-in-nigeria",
-    live_link: "https://make-in-nigeria-mp89-bvl27y0d6-toviarock1.vercel.app",
-  },
-  {
-    name: "Monofrontend",
-    description: "Monofrontend dashboard",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "green-text-gradient",
-      },
-    ],
-    image: monoFrontend,
     source_code_link: "https://github.com/Toviarock1/make-in-nigeria",
     live_link: "https://make-in-nigeria-mp89-bvl27y0d6-toviarock1.vercel.app",
   },
