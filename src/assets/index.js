@@ -52,6 +52,8 @@ import newsapp from "./images/react-newsapp.png";
 import monoFrontend from "./images/monofrontend.png";
 import avatar from "./images/avatar.png";
 import aceembedded from "./images/ace_embedded_ltd_logo.jpg";
+import worknestBackend from "./images/workNest-backend.png";
+import nodeit from "./images/nodeit.png";
 
 export {
   logo,
@@ -105,4 +107,6 @@ export {
   avatar,
   aceembedded,
   jest,
+  worknestBackend,
+  nodeit,
 };

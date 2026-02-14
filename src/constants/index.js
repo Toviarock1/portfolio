@@ -46,6 +46,8 @@ import {
   avatar,
   aceembedded,
   jest,
+  worknestBackend,
+  nodeit,
 } from "../assets";
 
 export const navLinks = [
@@ -226,6 +228,48 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "WorkNest-Backend",
+    description:
+      "A comprehensive backend API for WorkNest - a collaborative project management application with real-time features.",
+    tags: [
+      {
+        name: "Node.js & Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL & Prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: worknestBackend,
+    source_code_link: "https://github.com/Toviarock1/worknest-backend",
+  },
+  {
+    name: "Nodeit-Backend",
+    description:
+      "A robust RESTful API backend for project and task management built with Node.js, Express, and Prisma ORM.",
+    tags: [
+      {
+        name: "Node.js & Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nodeit,
+    source_code_link: "https://github.com/Toviarock1/nodeit-backend",
+  },
   {
     name: "Burger Builder",
     description:
