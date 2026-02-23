@@ -53,7 +53,7 @@ const About = () => {
         maintainable code, and delivering measurable improvements in user
         experience and reliability.
       </motion.p>
-      <a href="/resume/simon-adama.pdf" download>
+      <a href="/resume/simon-adama-software-engineer.pdf" download>
         <motion.button
           className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl leading-[30px] mt-8"
           variants={fadeIn("", "", 0.1, 1)}
