@@ -27,7 +27,7 @@ const Contact = () => {
 
     emaijs
       .send(
-        "contact_form",
+        "service_2mubqws",
         "template_tgbw12l",
         {
           from_name: form.name,
@@ -37,7 +37,7 @@ const Contact = () => {
           email: "simontoviaadama@gmail.com",
           message: form.message,
         },
-        "user_C7Rc87pDIIjtLoqaZy1uo"
+        "user_C7Rc87pDIIjtLoqaZy1uo",
       )
       .then(
         () => {
@@ -55,7 +55,7 @@ const Contact = () => {
           console.log(error);
 
           alert("Something went wrong");
-        }
+        },
       );
   };
 
