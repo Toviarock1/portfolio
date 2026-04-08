@@ -245,6 +245,7 @@ const projects = [
     ],
     image: worknest,
     source_code_link: "https://github.com/Toviarock1/work_nest",
+    live_link: "https://work-nest-mu.vercel.app/",
   },
   {
     name: "WorkNest-Backend",
