@@ -53,6 +53,7 @@ import monoFrontend from "./images/monofrontend.png";
 import avatar from "./images/avatar.png";
 import aceembedded from "./images/ace_embedded_ltd_logo.jpg";
 import worknestBackend from "./images/workNest-backend.png";
+import worknest from "./images/workNest.png";
 import nodeit from "./images/nodeit.png";
 
 export {
@@ -108,5 +109,6 @@ export {
   aceembedded,
   jest,
   worknestBackend,
+  worknest,
   nodeit,
 };

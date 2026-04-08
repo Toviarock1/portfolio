@@ -48,6 +48,7 @@ import {
   jest,
   worknestBackend,
   nodeit,
+  worknest,
 } from "../assets";
 
 export const navLinks = [
@@ -228,6 +229,23 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "WorkNest",
+    description:
+      "Engineered a dynamic web application for WorkNest, implementing real-time task up- dates, interactive dashboards, and secure authentication workflows. Focused on clean UI architec- ture, performance optimization, and efficient API integration.",
+    tags: [
+      {
+        name: "Next.js 16",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+    ],
+    image: worknest,
+    source_code_link: "https://github.com/Toviarock1/work_nest",
+  },
   {
     name: "WorkNest-Backend",
     description:
