@@ -199,6 +199,22 @@ const experiences = [
       "Improved workflow efficiency under load, increasing performance and reducing merge conflicts by 30%.",
     ],
   },
+  {
+    title: "FullStack Engineer Intern",
+    company_name: "Mensa Philosophical Circle",
+    icon: "https://media.licdn.com/dms/image/v2/D4E0BAQG3VBspsd9Bxw/company-logo_200_200/company-logo_200_200/0/1719258422692/mensa_philosophical_circus_logo?e=1792627200&v=beta&t=FTH6rfYY0uP1I6i_W5yhdAJFtMQfwV46h8NeOgeglk0",
+    iconBg: "#383E56",
+    date: "Jun 2026 - Sep 2026",
+    points: [
+      "Contributed to multiple production applications across the frontend and backend, working with React/TypeScript and NestJS.",
+      "Built and integrated REST APIs, database queries, validation logic, and business rules using NestJS, Prisma, and MySQL.",
+      "Developed features covering school management, subscriptions, payroll, tuition, financial management, classes, promotions, syllabus management, and bulk data processing.",
+      "Implemented backend functionality for tenant-scoped data access, role-based permissions, subscription/plan enforcement, bank-account gating, payroll workflows, financial analytics, and data integrity validation",
+      "Built reliable bulk-upload workflows with validation, duplicate detection, tenant association, error handling, and protection against partial or corrupted records.",
+      "Developed React interfaces using TypeScript, React Query, Redux Toolkit, Zustand, React Hook Form, Zod, and Tailwind CSS, including dashboards, data tables, forms, modals, filtering, and financial reporting.",
+      "Improved application reliability through Playwright E2E testing, API integration fixes, stronger type safety, error handling, and frontend/backend synchronization.",
+    ],
+  },
 ];
 
 const testimonials = [
